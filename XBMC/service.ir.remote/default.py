@@ -19,10 +19,10 @@ import sys
 import xbmcaddon
 import xbmc
 import time
-from resources.lib.remoteClient.xbmcclient import XBMCClient
-from resources.lib import serial
-from resources.lib import dbQuery
-from resources.lib import db
+from resources.library.remoteClient.xbmcclient import XBMCClient
+from resources.library import serial
+from resources.library import dbQuery
+from resources.library import db
 
 __scriptname__ = "IRRemote Service"
 __author__ = "jlbrian"
